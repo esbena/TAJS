@@ -124,8 +124,7 @@
         <delete dir="${dir}" />
     </target>
 
-    <target name="test">
-        <mkdir dir="build" />
+    <target name="test" depends='compile'>
         <javac srcdir="test/src" includes="**" destdir="build" optimize="${optimize}" debug="${debug}" 
                 includeantruntime="false" source="1.7">
             <classpath refid="classpath" />
