@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/esbena/TAJS.svg?branch=master)](https://travis-ci.org/esbena/TAJS)
+
 TAJS - Type Analyzer for JavaScript
 Copyright 2009-2013 Aarhus University
 
